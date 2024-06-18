@@ -32,6 +32,15 @@ npm i mongoose
 ```
 <br>
 
+### Installing Error Handler~
+<br>
+<br>
+
+```
+npm i express-async-handler
+```
+<br>
+
 ### Installing Packages from JSON~
 <br>
 <br>
