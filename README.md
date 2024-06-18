@@ -77,6 +77,15 @@ npm install
 ```
 <br>
 
+### Running Server~
+<br>
+<br>
+
+```
+node --watch app
+```
+<br>
+
 ### Convention~
 <br>
 <b>🗒️Note:  Used app instead of server or index. the same is reflected in package.json file in the backend folder. <b>
