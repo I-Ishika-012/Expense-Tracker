@@ -41,6 +41,15 @@ npm i express-async-handler
 ```
 <br>
 
+### Installing Bcrypt Hasher~
+<br>
+<br>
+
+```
+npm i bcrypt
+```
+<br>
+
 ### Installing Packages from JSON~
 <br>
 <br>
