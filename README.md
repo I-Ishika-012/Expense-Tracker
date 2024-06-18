@@ -13,3 +13,8 @@ Expenses tracker using MERN Stack
 npm init --yes
 ```
 <br>
+
+### Convention~
+<br>
+<b>🗒️Note:  Used app instead of server or index. the same is reflected in package.json file in the backend folder. <b>
+<br>
