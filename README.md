@@ -50,6 +50,15 @@ npm i bcrypt
 ```
 <br>
 
+### Installing JSON~
+<br>
+<br>
+
+```
+npm i json
+```
+<br>
+
 ### Installing Packages from JSON~
 <br>
 <br>
