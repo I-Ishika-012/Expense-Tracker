@@ -59,6 +59,15 @@ npm i json
 ```
 <br>
 
+### Installing Web Token~
+<br>
+<br>
+
+```
+npm i jsonwebtoken
+```
+<br>
+
 ### Installing Packages from JSON~
 <br>
 <br>
