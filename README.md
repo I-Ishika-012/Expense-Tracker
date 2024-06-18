@@ -1,5 +1,5 @@
 # Expense Tracker
-Expenses tracker using MERN Stack
+Expenses tracker using MERN Stack + MVC Framework
 
 ## Setup & Prerequisites
 
