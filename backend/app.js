@@ -13,7 +13,7 @@ app.use("/", userRouter);
 // app.use("/api/v1", require("./routes/categoryRouter"));
 // app.use("/api/v1", require("./routes/authRouter"));
 
-//?start server
+//?start the server
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
 
