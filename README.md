@@ -1,6 +1,8 @@
 # Expense Tracker
 Expenses tracker using MERN Stack + MVC Framework
 
+## WORK IN PROGRESS
+
 ## Setup & Prerequisites
 
 ### Initializing the Project~
