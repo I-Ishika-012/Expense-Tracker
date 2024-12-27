@@ -1,8 +1,19 @@
 const express = require("express");
 const app = express(); //?instance of express
 const userRouter = require("./routes/userRouter");
+const { default: mongoose } = require("mongoose");
 
 app.use(express.json());
+
+//?connect to database
+mongoose.connect("mongodb+srv://ishikadutta991q:BUY6uWX1TmEaNeJv@cluster0.2ei7c.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,   
+}).then(() => {
+    console.log("Connected to database");
+}).catch((err) => {
+    console.log(err);
+});
 
 //?routes -- middleware
 app.use("/", userRouter);
