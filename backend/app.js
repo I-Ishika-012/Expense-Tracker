@@ -2,10 +2,11 @@ const express = require("express");
 const app = express(); //?instance of express
 const userRouter = require("./routes/userRouter");
 const { default: mongoose } = require("mongoose");
+const errorHandler = require("./middlewares/errorHandlerMiddleware");
 
 
 //?connect to database
-mongoose.connect("mongodb+srv://ishikadutta991q:BUY6uWX1TmEaNeJv@cluster0.2ei7c.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
+mongoose.connect("mongodb+srv://<mongouser>:<password>@cluster0.2ei7c.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
     useNewUrlParser: true,
     useUnifiedTopology: true,   
 }).then(() => {
@@ -20,6 +21,10 @@ app.use(express.json());
 
 //?routes -- middleware
 app.use("/", userRouter);
+
+//! error handling middleware
+app.use(errorHandler);
+
 // app.use(express.json());
 // app.use(express.urlencoded({ extended: true }));
 // app.use("/api/v1", require("./routes/userRouter"));
