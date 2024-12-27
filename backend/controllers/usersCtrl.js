@@ -8,6 +8,8 @@ const usersController = {
     register: asyncHandler(async (req, res) => {
         res.json({ msg: "register" });
     }),
+    //! Login User
+    //! Get User Profile
 };
 
 module.exports = usersController;
