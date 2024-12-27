@@ -3,7 +3,6 @@ const app = express(); //?instance of express
 const userRouter = require("./routes/userRouter");
 const { default: mongoose } = require("mongoose");
 
-app.use(express.json());
 
 //?connect to database
 mongoose.connect("mongodb+srv://ishikadutta991q:BUY6uWX1TmEaNeJv@cluster0.2ei7c.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
@@ -14,6 +13,10 @@ mongoose.connect("mongodb+srv://ishikadutta991q:BUY6uWX1TmEaNeJv@cluster0.2ei7c.
 }).catch((err) => {
     console.log(err);
 });
+
+//?middleware
+//!pass json data
+app.use(express.json());
 
 //?routes -- middleware
 app.use("/", userRouter);
