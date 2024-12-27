@@ -77,6 +77,32 @@ const usersController = {
             email: user.email,
         });
     }),
+    //! Change Password
+    changePassword: asyncHandler(async (req, res) => {
+        //?get password from request body
+        const { oldPassword, newPassword } = req.body;
+        //! find user by id
+        const user = await User.findById(req.user);
+        if (!user) {
+            throw new Error("User not found");
+        }
+        //! correct password
+        const isPasswordCorrect = await bcrypt.compare(oldPassword, user.password);
+        if (!isPasswordCorrect) {
+            throw new Error("Invalid Password");
+        }
+        //! Hash new password
+        const salt = await bcrypt.genSalt(10);
+        const hashedPassword = await bcrypt.hash(newPassword, salt);
+        //! Update Password
+        user.password = hashedPassword;
+        //! Save User ie user password
+        await user.save();
+        //! Send Response
+        res.json({
+            message: "Password changed successfully",
+        });
+    }),
 };
 
 module.exports = usersController;
