@@ -65,6 +65,18 @@ const usersController = {
         });
     }),
     //! Get User Profile
+    profile: asyncHandler(async (req, res) => {
+        //! find user by id
+        const user = await User.findById(req.user.id);
+        if (!user) {
+            throw new Error("User not found");
+        }
+        //! Send Response
+        res.json({
+            username: user.username,
+            email: user.email,
+        });
+    }),
 };
 
 module.exports = usersController;
