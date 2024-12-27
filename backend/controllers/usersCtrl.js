@@ -6,6 +6,8 @@ const User = require("../model/User");
 const usersController = {
     //! User Registration
     register: asyncHandler(async (req, res) => {
+        //?get payload/data from request body
+        const { username, email, password } = req.body;
         res.json({ msg: "register" });
     }),
     //! Login User
