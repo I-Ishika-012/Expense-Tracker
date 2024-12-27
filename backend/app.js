@@ -4,7 +4,7 @@ const userRouter = require("./routes/userRouter");
 
 app.use(express.json());
 
-//?routes
+//?routes -- middleware
 app.use("/", userRouter);
 // app.use(express.json());
 // app.use(express.urlencoded({ extended: true }));
