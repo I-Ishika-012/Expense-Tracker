@@ -48,7 +48,7 @@ npm i express-async-handler
 <br>
 
 ```
-npm i bcrypt
+npm i bcryptjs
 ```
 <br>
 
