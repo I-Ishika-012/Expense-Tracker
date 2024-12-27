@@ -78,7 +78,7 @@ const usersController = {
         });
     }),
     //! Change Password
-    changePassword: asyncHandler(async (req, res) => {
+    changeUserPassword: asyncHandler(async (req, res) => {
         //?get password from request body
         const { oldPassword, newPassword } = req.body;
         //! find user by id
