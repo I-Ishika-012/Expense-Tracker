@@ -3,6 +3,8 @@ const app = express(); //?instance of express
 const userRouter = require("./routes/userRouter");
 const { default: mongoose } = require("mongoose");
 const errorHandler = require("./middlewares/errorHandlerMiddleware");
+const categoryRouter = require("./routes/categoryRouter");
+
 
 
 //?connect to database
@@ -21,6 +23,7 @@ app.use(express.json());
 
 //?routes -- middleware
 app.use("/", userRouter);
+app.use("/", categoryRouter);
 
 //! error handling middleware
 app.use(errorHandler);
