@@ -4,6 +4,8 @@ const userRouter = require("./routes/userRouter");
 const { default: mongoose } = require("mongoose");
 const errorHandler = require("./middlewares/errorHandlerMiddleware");
 const categoryRouter = require("./routes/categoryRouter");
+const transactionRouter = require("./routes/transactionRouter");s
+
 
 
 
