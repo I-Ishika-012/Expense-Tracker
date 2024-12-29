@@ -7,8 +7,6 @@ const categoryRouter = require("./routes/categoryRouter");
 const transactionRouter = require("./routes/transactionRouter");s
 
 
-
-
 //?connect to database
 mongoose.connect("mongodb+srv://<mongouser>:<password>@cluster0.2ei7c.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
     useNewUrlParser: true,
@@ -26,6 +24,7 @@ app.use(express.json());
 //?routes -- middleware
 app.use("/", userRouter);
 app.use("/", categoryRouter);
+app.use("/", transactionRouter);
 
 //! error handling middleware
 app.use(errorHandler);
