@@ -88,10 +88,27 @@ npm install
 ```
 node --watch app
 ```
+<br>
 
 ### FRONTEND
 
-### L
+### Initializing Vite~
+<br>
+<br>
+
+```
+ npm create vite@latest
+ ```
+ 
+<br>
+### Initializing Vite~
+<br>
+<br>
+
+```
+ npm create vite@latest
+ ```
+ 
 <br>
 
 ### Convention~
