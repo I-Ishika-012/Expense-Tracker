@@ -180,6 +180,13 @@ npm i axios
 ```
 <br>
 
+### Install React Icons~
+<br><br>
+```
+npm i react-icons --save
+```
+<br>
+
 ### Convention~
 <br>
 <b>🗒️Note:  Used app instead of server or index. the same is reflected in package.json file in the backend folder. <b>
