@@ -121,6 +121,17 @@ node --watch app
  
 <br>
 
+### Install Redux Toolkit with React Binding~
+<br>
+<br>
+
+```
+npm install @reduxjs/toolkit react-redux
+```
+<br>
+
+
+
 ### Convention~
 <br>
 <b>🗒️Note:  Used app instead of server or index. the same is reflected in package.json file in the backend folder. <b>
