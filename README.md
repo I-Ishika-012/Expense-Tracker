@@ -5,6 +5,8 @@ Expenses tracker using MERN Stack + MVC Framework
 
 ## Setup & Prerequisites
 
+### BACKEND
+
 ### Initializing the Project~
 <br>
 <b>🗒️Note:  Make sure that your development environment meets the following requirements: * Node.js v18+ * npm <b>
@@ -86,6 +88,10 @@ npm install
 ```
 node --watch app
 ```
+
+### FRONTEND
+
+### L
 <br>
 
 ### Convention~
