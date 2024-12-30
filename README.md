@@ -159,6 +159,27 @@ npm run dev
 ```
 <br>
 
+### Install Formik Forms~
+<br><br>
+```
+npm i formik --save 
+```
+<br>
+
+### Install Yup Schema Builder~
+<br><br>
+```
+npm i yup 
+```
+<br>
+
+### Install Axios Client~
+<br><br>
+```
+npm i axios
+```
+<br>
+
 ### Convention~
 <br>
 <b>🗒️Note:  Used app instead of server or index. the same is reflected in package.json file in the backend folder. <b>
