@@ -150,6 +150,15 @@ npx tailwindcss init -p
 ```
 <br>
 
+### Start Your Build Process~
+<br>
+<br>
+
+```
+npm run dev
+```
+<br>
+
 ### Convention~
 <br>
 <b>🗒️Note:  Used app instead of server or index. the same is reflected in package.json file in the backend folder. <b>
