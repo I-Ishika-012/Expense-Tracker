@@ -101,6 +101,7 @@ node --watch app
  ```
  
 <br>
+
 ### Running Vite~
 <br>
 <br>
@@ -139,6 +140,15 @@ npm install @tanstack/react-query @tanstack/react-query-devtools
 ```
 <br>
 
+### Install & Initialize TailwindCSS~
+<br>
+<br>
+
+```
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
+<br>
 
 ### Convention~
 <br>
