@@ -101,12 +101,13 @@ node --watch app
  ```
  
 <br>
-### Initializing Vite~
+### Running Vite~
 <br>
 <br>
 
 ```
- npm create vite@latest
+ npm install
+  npm run dev
  ```
  
 <br>
