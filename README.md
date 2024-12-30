@@ -187,6 +187,13 @@ npm i react-icons --save
 ```
 <br>
 
+### Install React Router DOM~
+<br><br>
+```
+npm i react-rouder-dom
+```
+<br>
+
 ### Convention~
 <br>
 <b>🗒️Note:  Used app instead of server or index. the same is reflected in package.json file in the backend folder. <b>
