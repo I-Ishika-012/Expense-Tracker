@@ -130,6 +130,14 @@ npm install @reduxjs/toolkit react-redux
 ```
 <br>
 
+### Install Tanstack Toolkit for React ~
+<br>
+<br>
+
+```
+npm install @tanstack/react-query @tanstack/react-query-devtools
+```
+<br>
 
 
 ### Convention~
