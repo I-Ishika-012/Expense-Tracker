@@ -106,8 +106,16 @@ node --watch app
 <br>
 
 ```
- npm install
-  npm run dev
+ npm run dev
+ ```
+ 
+<br>
+### Installing NPM Packages~
+<br>
+<br>
+
+```
+ npm i
  ```
  
 <br>
